@@ -33,4 +33,26 @@
 		return totalAbsence;
 	}
 
+	double averageAbsence(double emplo, double totalAbsence) 
+		{
+			double aveAbsence = totalAbsence / emplo;
+			return aveAbsence;
+		}	
+	
+	
+//MAIN		
+	int main()
+	{
+		
+		int m, k;
+		m=noOfEmployee();
+		//m = a
+		k=missedDays(m);
+		
+	
+		cout<<"Average absence each employee is "<<averageAbsence(m,k);
+		
+	
+		
+	}	
  	
