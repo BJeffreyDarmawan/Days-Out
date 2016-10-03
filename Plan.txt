@@ -1,0 +1,19 @@
+Days Out 
+
+Planning: 
+Dylan will make the 1 st and 2nd function
+1st function	:: should contain an input for 'number of employees in the company'; NO ARGUMENT
+2nd function	:: should use 1 ARGUMENT, which is the number of employees stated from before; 
+		   The function asks the user to input number of days that each employees missed;
+       should use loop so that we can input for each emplo.
+Jeff will make the 3rd function and the input validation
+3rd funcction 	::  should use 2 ARGUMENTS, which are number of employees and total days they missed
+1st input valid.::  number of employee has to be 1 or more 
+2nd input valid.::  absence each employee cant be less than 0
+input validation will use do-while loop, and put inside the function
+
+so the program will be something like this:
+int main > run 1st function (user inserts the number of employee (loop if input not valid)) 
+> run 2nd function (user inserts number of absence each employee (loop so that user can input for each emplo.(loop if input invalid))
+> run 3rd function (calculates the average absence)
+> cout average;
