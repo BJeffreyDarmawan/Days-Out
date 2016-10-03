@@ -18,4 +18,4 @@ int main > run 1st function (user inserts the number of employee (loop if input 
 > run 3rd function (calculates the average absence)
 > cout average;
  
-yey test
+yey test 2
