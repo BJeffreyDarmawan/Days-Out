@@ -3,20 +3,19 @@
  	
  	using namespace std;
  	
+ //function 1 is employees working in the company	
  	int noOfEmployee()
- 	
  	{
 		int a;
  		do{
 		 
-		cout<<"Enter amount of employee: ";cin>>a;
+		cout<<"Enter number of employee: ";cin>>a;
 		} while(a < 1);
 		return a;
 	}
 
-
-	int missedDays(int emplo) 
-	
+//function 2 is sum of absence of all employees	
+	int missedDays(int emplo) // int emplo is 'a' from noOfEmployee
 	{
 		cout<<"Number of absence the employee did this past year."<<endl;
 		int noEmplo=1;
@@ -32,7 +31,7 @@
 		}
 		return totalAbsence;
 	}
-
+//function 3 is the average number of days absent
 	double averageAbsence(double emplo, double totalAbsence) 
 		{
 			double aveAbsence = totalAbsence / emplo;
@@ -46,13 +45,11 @@
 		
 		int m, k;
 		m=noOfEmployee();
-		//m = a
+		//value of m = a from the function
 		k=missedDays(m);
+		//value of k = totalAbsence from the function
 		
-	
 		cout<<"Average absence each employee is "<<averageAbsence(m,k);
-		
-	
 		
 	}	
  	
